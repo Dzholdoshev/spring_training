@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Shop</title>
+</head>
+<body>
+
+<img th:src="@{/images/pet.png}"/>
+<h1>Welcome to Cydeo's Pet Shop!!!</h1>
+
+
+
+
+<div >
+    <form th:action="@{/animal/confirm}" method="post" th:object="${animal}">
+        <label>Animal Name:</label>
+        <input type="text" th:field="*{}"><br>
+
+
+    </form>
+</div>
+
+
+
+</body>
+</html>
