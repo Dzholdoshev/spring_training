@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringTrainingApplication {
+public class Spring20RestSecurityKeycloakOrganizationsAppApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringTrainingApplication.class, args);
+        SpringApplication.run(Spring20RestSecurityKeycloakOrganizationsAppApplication.class, args);
     }
 
 }
