@@ -30,7 +30,7 @@ public class MentorController {
    // return "mentor/mentor-confirmation";
     //    model.addAttribute("mentor", new Mentor());
 
-    return "redirect:/mentor/register";
+   return "redirect:/mentor/register";
 
     }
 
